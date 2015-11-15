@@ -3,7 +3,7 @@
  */
 var mongoose = require("mongoose");
 var db = mongoose.connect("mongodb://127.0.0.1:27017/test");
-db.connection.on("error",function(err){
+db.connection.on("connection",function(err){
     console.log("连接数据库失败"+err);
 });
 
