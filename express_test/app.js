@@ -40,6 +40,35 @@ app.param('yourage',function(req,res,next,value){
     res.send("your age is:"+value);
     next();
 });
+//重定向
+//localhost:3000/search
+app.get('/search',function(request,response){
+    response.redirect("http://baidu.com");
+});
+//发送一个图片
+app.get('/png',function(request,response){
+    response.sendfile("desktop.png",
+        {
+            root:'./views/'
+        },
+        function(err){
+            if(err) {
+                console.log("error") + err;
+            } else{
+                console.log("ok");}
+        }
+    );
+});
+//下载
+app.get('/download',function(request,response){
+    response.download('./views/desktop.png','img.png',function(err){
+        if(err){
+            console.log("err"+err);
+        }else{
+            console.log("download ok!");
+        }
+    });
+});
 
 //所有请求都经过这里
 app.all('/*',function(request,response){
