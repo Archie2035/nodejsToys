@@ -12,3 +12,9 @@ my toy！
 ## mongoose_find
 学习使用mongoose对集合进行简单的查询
 [mongoose_find](https://code.csdn.net/a912293097/nodejstoys/tree/master/mongoose_find)
+
+## mongoose_cursor
+学习使用mongoose的游标进行skip limit sort 等查询
+
+## express_test
+开始学习express练习了简单的路由请求
