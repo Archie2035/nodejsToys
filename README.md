@@ -1,5 +1,6 @@
 !["my toy"](https://img.shields.io/badge/magicw-toy-green.svg)
 my toy！
+**所有代码在node app.js之前 需要npm install 一下，安装所依赖的库。**
 
 ## console_color
 使用colors模块对console的输出进行美化，同时使用readline模块对终端的输入的数据进行获取。
