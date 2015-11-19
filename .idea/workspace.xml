@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/express_test/app.js" line="15" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="906e40b2-6cb7-438a-86ec-81fa23eca572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_ejs_test/views/user_ejs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="906e40b2-6cb7-438a-86ec-81fa23eca572" name="Default" comment="" />
     <ignored path="nodejstoys.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
